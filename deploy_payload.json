@@ -1,0 +1,11 @@
+{
+  "name": "lovable-ai-colone2",
+  "project": "prj_GbLv182E4O5WYHT8glSGinnXVRUK",
+  "target": "production",
+  "gitSource": {
+    "type": "github",
+    "repoId": "1047786492",
+    "ref": "main",
+    "sha": "9c616906c7c989bbb7c48ee106e847c35e369dd1"
+  }
+}
