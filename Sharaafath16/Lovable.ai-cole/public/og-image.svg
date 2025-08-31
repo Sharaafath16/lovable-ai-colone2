@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b0d0f"/>
+      <stop offset="100%" stop-color="#171a1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="1060" cy="120" r="220" fill="#7c71ff" fill-opacity="0.18"/>
+  <text x="80" y="200" font-family="Arial, Helvetica, sans-serif" font-size="88" font-weight="700" fill="#e6e8eb">Cole</text>
+  <text x="80" y="290" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#9aa4b2">A modern marketing site scaffold</text>
+</svg>

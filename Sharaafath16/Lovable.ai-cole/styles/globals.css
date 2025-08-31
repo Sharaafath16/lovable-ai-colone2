@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0b0d0f;
+  --color-fg: #e6e8eb;
+  --color-muted: #9aa4b2;
+  --color-border: #25303a;
+  --color-brand: #7c71ff;
+  --color-accent: #00d1b2;
+
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.12);
+  --shadow-hard: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  @apply border-border;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-background text-foreground antialiased;  
+}
+
+a {
+  @apply text-foreground/90 hover:text-foreground transition;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+.container-base {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
